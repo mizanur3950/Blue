@@ -1,0 +1,316 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-size: 20x;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	font-weight: 400;
+	text-rendering: optimizeLegibility;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: ' ';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/****** Header Area **********/
+
+header {
+	background-color: #121b2a;
+	height: 100px;
+}
+
+.logo {
+	width: 35%;
+	float: left;
+	padding-top: 22px;
+}
+
+.main-menu {
+	width: 65%;
+	float: right;
+}
+
+.main-menu ul {
+	list-style: none;;
+	float: right;
+}
+
+.main-menu ul li {
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 60px;
+}
+
+.main-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight: 500;
+}
+
+.main-menu ul li a:hover {
+	color: #588dba;
+}
+
+.login {
+	position: absolute;
+	top: 0;
+	right: 10%;
+}
+
+.login ul {
+	list-style: none;
+}
+
+.login ul li {
+	display: inline-block;
+	float: left;
+}
+
+.login button {
+	padding: 6px 12px;
+	border: 0;
+}
+
+.login button .fas {
+	padding-right: 7px;
+}
+
+.client {
+	background-color: #fff;
+	color: #222;
+}
+
+.employee {
+	background-color: #007bc5;
+	color: #fff;
+}
+
+
+/****** Banner Area ******/
+
+#banner {
+	background:linear-gradient(to right,rgba(0,0,0,0.9),rgba(0,0,0,0)), url(../img/banner_bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+.hero-text-box {
+	padding-top: 200px;
+}
+
+.hero-text-box h1 {
+	font-weight: 400;
+	font-size: 170%;
+}
+
+.highlight {
+	font-weight: 600;
+	font-size: 120%;
+	color: #007cbe;
+}
+
+.hero-text-box button {
+	border: 0;
+	padding: 10px 18px;
+	text-transform: uppercase;;
+	font-weight: 500;
+	font-size: 100%;
+	margin-top: 15px;
+	border-radius: 5px;
+	transition: all 0.4 ease;
+}
+
+.hero-text-box p,
+#service p,
+#contact p {
+	font-size: 80%;
+	line-height: 24px;
+}
+
+.hero-text-box .fas {
+	padding-left: 8px;
+	color: #007cbe;
+}
+
+.hero-text-box button:hover {
+	background-color: #007cbe;
+	color: #fff;
+	cursor: pointer;
+}
+
+.hero-text-box button:hover .fas {
+	color: #fff;
+}
+
+
+/**** Service Section ****/
+
+#service {
+	background-color: #121b2c;
+	padding: 60px 0;
+}
+
+#service .box,
+#contact .box {
+	width: 30%;
+	float: left;
+	margin: 0 2.5%;
+}
+
+#service .box:first-child,
+#contact .box:first-child {
+	margin-left: 0;
+}
+
+#service .box:last-child,
+#contact .box:last-child {
+	margin-right: 0;
+}
+
+
+#service .box .service_header {
+	margin-bottom: 15px;
+}
+
+#service .box .service_header img {
+	float: left;
+	padding-right: 10px;
+}
+
+
+/**** Contact Section ****/
+
+#contact {
+	background-color: #040811;
+	padding: 60px 0;
+}
+
+#contact h4 {
+	padding: 10px 0;
+}
+
+#contact p {
+	padding: 8px 0;
+}
+
+#contact .tel{
+	padding-left: 10%;
+}
+
+#contact .fax {
+	padding-left: 18%;
+}
+
+#contact .email {
+	padding-left: 14%;
+}
+
+.test_text {
+	background-color: rgba(255,255,255,0.05);
+	padding: 20px;
+	border-radius: 5px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+}
+
+.person {
+	padding-left: 20px;
+}
+
+.image {
+	float: left;
+	width: 35%;
+	margin-right: 20px;
+}
+
+.image img {
+	width: 100%;
+}
+
+/********** Footer Section ********/
+
+footer {
+	background-color: #121b2c;
+	padding: 30px 0; 
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.footer_menu ul {
+	list-style: none;
+	float: left;
+}
+
+.footer_menu ul li{
+	display: inline-block;
+	float: left;
+	padding: 0 20px;
+	border-right: 1px solid #fff;
+}
+
+.footer_menu ul li:first-child {
+	padding-left: 0;
+}
+
+.footer_menu ul li:last-child {
+	padding-right: 0;
+	border: none;
+}
+
+.footer_menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 80%;
+}
+
+.footer_menu ul li a:hover {
+	color: #588dba;
+}
+
+.copyright {
+	padding-top: 40px;
+}
+
+.copyright h5 {
+	font-size: 80%;
+	font-weight: 400;
+}
+
+.right ul {
+	list-style: none;
+	float: right;
+}
+
+.right ul li {
+	display: inline-block;
+	float: left;
+	margin-left: 80px;
+}
+
+.right ul li img {
+	width: 140%;
+}
